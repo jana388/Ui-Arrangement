@@ -1,4 +1,4 @@
-# Ui-Arrangement
+# Ui-Setup
 ## Tutorial for putting an UI in a game
 So you wolud like to have some UI in your game: a score number popping on your screen or maybe a timer?
 
@@ -40,6 +40,11 @@ pivot position and strech settings
 for even more options, you can hold Shift and Alt to access even more options.
 
 For this tutorial, i will make a score for left and right goal, that is why i will choose ...
+
+after this we will add text
+change the colours
+rearrange the position
+
 
 
  
