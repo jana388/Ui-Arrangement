@@ -34,14 +34,38 @@ an easier and more organised way is to edit it in the Inspector.
 
 ## Navigating the inspector
 
+
+
+For this tutorial, i will make a score for left and right goal, that is why i will choose ...
+As an example, let's make a score count for left and right goal in a game.
+We don't want our UI to take over the whole screen. UI should not a be in focus of the game, but rather a tool for the player to follow some important data in the game.
+
+That is why, I want to place my score count on the top of the screen.
+We can use a tool in the inspector left clicking on the frame in the square. Those are automatic presets that allow us to correctly place our user interface.
+By clicking on the box, we can change our pivot, position and strech settings.
+
 If we would go to the inspector and access the presets
 you just have to click this box in the inspector which will allow you to see all the given options depending on your liking and a purpose
 pivot position and strech settings
 for even more options, you can hold Shift and Alt to access even more options.
+ I will chosen top strech.
+For height we will change it to 220.
 
-For this tutorial, i will make a score for left and right goal, that is why i will choose ...
+If we go down to image, we can change the fill and the colour of the panel, or we can deactivate it.
+It is useful for visualisation of the wished UI
+Now we will add some text to the panel.
+We are going to go to the Hierarchy and right click on the panel and select UI and text.
+Now we have a little text box.
+we will not worry about the position of the box.
+ we will not bother editing the text too much, for now we will just set a text to bold and type 0 to text
+ We choose font size to 100 and bold text
+ we align it  to centre horizontally and vertically.
+ and we change the colour of the text to white.
+ Now we will select the panel and add a component that will take care of the layer force. It's the component is under layout and is called horizontal layout group. For this game, we will set child alignment to middle centre, then we will uncheck child force expand for the width, and we will let this panel control the height of the  elements. And there you go, if you resize the panel, the text will adapt automatically. We are now all set for the coding part.
 
-after this we will add text
+ 
+
+this we will add text
 change the colours
 rearrange the position
 
