@@ -17,19 +17,29 @@ A UI is a very simple tool that helps the player interact with games' features a
 
 The first thing we need to do is open a project (does not matter if it is 2D or 3D) an then go to the Hierarchy. 
 
-
-
 Right click on the area and a drop menu should appear.
+
+![Screenshot (366)](https://github.com/user-attachments/assets/62f2943b-fec3-404d-9fb1-e9538fbc8466)
+
 You will see an UI icon shown on that list. Press it and you will get another drop menu. There are various options we can choose from like Image, Text, ScrollBar and so on.
 We will go to Panel and left click it.
 
-After doingt these steps correctly, a scene will change. You should notice a Panel in your scene. In the Hierarchy, we can see that Panel is a child of a canvas.
-> Why can't Panel be by itself, and why does it have to be a child of the Canvas?
-> This is because it is makes it easier to place it in the scene without having to go to Game mode from time to time.
-When adding a UI not only do we automatically get a canvas but also an Event System object.
-> Event system helps connecting the visuals with the input. For example, when we press on a button (input), the UI score goes up and we can see it on the screen (visual).
+After doing these steps correctly, a scene will change. You should notice a Panel in your scene. In the Hierarchy, we can see that Panel is a child of a canvas.
 
-Now we can go to a 2D view (if you are in a 3D game)
+![Screenshot (366)](https://github.com/user-attachments/assets/7e739b68-fdca-4924-9470-cabe0f505921)
+
+> Why can't the Panel be by itself, and why does it have to be a child of the Canvas?
+> The Canvas is a root to every UI element, hence each one is a child to it.
+> This ensures we render the UI element correctly within the scene
+When adding a UI not only do we automatically get a canvas but also an **Event System object**.
+> Event system facilitates the interaction between the input (mouse, keyboard, joystick) and the visual output
+> It will map various inputs to appropraite function
+> it is used to  process the input and map it to its corresponding  UI or Game object and invoke its appropriate function
+> Note that we do not have to alter it since it is automatic!
+
+
+Now if the panel is too big on your screen, there is an option to zoom out and see it from the front perspective:
+- We can go to a 2D view (if you are in a 3D game)
 select the canvas and put your mouse cursor on the scene,
 now hit the key F for frame and it will zoom out on the whole canvas
 if you enter the game mode, you will see that the panel is covering the whole screen.
