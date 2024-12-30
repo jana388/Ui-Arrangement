@@ -26,7 +26,8 @@ We will go to Panel and left click it.
 
 After doing these steps correctly, a scene will change. You should notice a Panel in your scene. In the Hierarchy, we can see that Panel is a child of a canvas.
 
-![Screenshot (366)](https://github.com/user-attachments/assets/7e739b68-fdca-4924-9470-cabe0f505921)
+![Capture2](https://github.com/user-attachments/assets/125e3d43-8683-42b5-9bab-c5b1558f2c25)
+
 
 > Why can't the Panel be by itself, and why does it have to be a child of the Canvas?
 > The Canvas is a root to every UI element, hence each one is a child to it.
