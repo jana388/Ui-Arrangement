@@ -29,14 +29,14 @@ After doing these steps correctly, a scene will change. You should notice a Pane
 ![Capture2](https://github.com/user-attachments/assets/125e3d43-8683-42b5-9bab-c5b1558f2c25)
 
 
-> Why can't the Panel be by itself, and why does it have to be a child of the Canvas?
-> The Canvas is a root to every UI element, hence each one is a child to it.
-> This ensures we render the UI element correctly within the scene
-When adding a UI not only do we automatically get a canvas but also an **Event System object**.
-> Event system facilitates the interaction between the input (mouse, keyboard, joystick) and the visual output
-> It will map various inputs to appropraite function
-> it is used to  process the input and map it to its corresponding  UI or Game object and invoke its appropriate function
-> Note that we do not have to alter it since it is automatic!
+> - Why can't the Panel be by itself, and why does it have to be a child of the Canvas?
+> - The Canvas is a root to every UI element, hence each one is a child to it.
+> -This ensures we render the UI element correctly within the scene
+> - When adding a UI not only do we automatically get a canvas but also an **Event System object**.
+> -Event system facilitates the interaction between the input (mouse, keyboard, joystick) and the visual output
+> -It will map various inputs to appropraite function
+> -It is used to  process the input and map it to its corresponding  UI or Game object and invoke its appropriate function
+> -Note that we do not have to alter it since it is automatic!
 
 
 Now if the panel is too big on your screen, there is an option to zoom out and see it from the front perspective:
