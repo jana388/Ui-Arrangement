@@ -1,9 +1,8 @@
 # Ui-Setup
 ## Tutorial for putting an UI in a game
-So you would like to have some UI in your game: a score number popping on your screen
-
-This is the tutorial for you!
-it can be used in a both 2D and a 3D project.
+This is a beginners guide to setup a UI in your game.
+By the end of this tutorial you will know have to set up a score count on the top of the screen!
+This tutorial can be applicable on both 2D and a 3D project.
 
 ## Prerequisites
 
@@ -73,11 +72,32 @@ Now if we would go to the inspector and access the presets
 
 I will choose *Top stretch*
 
-For height we will change it to 220.
+![Screenshot (370)](https://github.com/user-attachments/assets/a6b1f840-6e9e-4458-b1d4-6c5b64a5ac28)
+> To find this option, hold Shift and Alt and left click on the box on the top right corner.
+
+Now that we got the position right, we can change the height.
+
+Go back to Inspector and go to height.
+We will change it to 110 so it will only cover the upper part of the screen
+
+![Screenshot (3722)](https://github.com/user-attachments/assets/e7d66cf7-1d0f-449e-9a20-d7a295d0cc82)
+
+This is what it should look like:
+
+![Screenshot (3723)](https://github.com/user-attachments/assets/da55ef66-8836-4a92-9ae7-61069cffce80)
 
 If we go down to image, we can change the fill and the colour of the panel, or we can deactivate it.
-It is useful for visualisation of the wished UI
-Now we will add some text to the panel.
+All of these options are useful for visualisation of the wished UI
+
+![Capture6](https://github.com/user-attachments/assets/b20d13f4-39fe-4af4-9292-66439052c533)
+
+We are going to deactivate it, since we do not want to cover the whole area, we just want to put the numbers for the score.
+
+To deactivate it, untick the box next to the **Image**
+If you have done these steps right, you can proceed to add the text to the UI.
+
+## Adding the text
+**Now we will add some text to the panel.**
 We are going to go to the Hierarchy and right click on the panel and select UI and text.
 Now we have a little text box.
 we will not worry about the position of the box.
