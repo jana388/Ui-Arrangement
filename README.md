@@ -68,10 +68,11 @@ Then a drop menu will appear with the following:
 
 Those are automatic presets that allow us to correctly resize our panel.
 By clicking on the box, we can change our **pivot, position and strech settings**
-For even more options, you can hold Shift and Alt to access even more options
+For even more options, you can hold *Shift* and *Alt* to access even more options
 Now if we would go to the inspector and access the presets
 
-I will chosw *Top stretch*
+I will choose *Top stretch*
+
 For height we will change it to 220.
 
 If we go down to image, we can change the fill and the colour of the panel, or we can deactivate it.
