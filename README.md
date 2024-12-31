@@ -13,15 +13,15 @@ Since there will not be any programming in this tutorial, we will not need Micro
 
 ## Setting up the User Interface
 
-A UI is a very simple tool that helps the player interact with games' features and mechanics. By the help of a few clicks, your game can have a camera view based visual which will guide a player throughout the game.
+A **UI** is a simple tool that helps the player interact with games' features and mechanics. By the help of a few clicks, your game can have a camera view based visual which will guide a player throughout the game.
 
-The first thing we need to do is open a project (does not matter if it is 2D or 3D) an then go to the Hierarchy. 
+The first thing we need to do is open a project *(does not matter if it is 2D or 3D)* an then go to the Hierarchy. 
 
-Right click on the area and a drop menu should appear.
+Right click on the area and a **drop menu** should appear.
 
 ![Screenshot (366)](https://github.com/user-attachments/assets/62f2943b-fec3-404d-9fb1-e9538fbc8466)
 
-You will see an UI icon shown on that list. Press it and you will get another drop menu. There are various options we can choose from like Image, Text, ScrollBar and so on.
+You will see an **UI icon** shown on that list. Press it and you will get another drop menu. There are various options we can choose from like *Image, Text, ScrollBar* and so on.
 We will go to Panel and left click it.
 
 After doing these steps correctly, a scene will change. You should notice a Panel in your scene. In the Hierarchy, we can see that Panel is a child of a canvas.
@@ -30,40 +30,48 @@ After doing these steps correctly, a scene will change. You should notice a Pane
 
 
 > - Why can't the Panel be by itself, and why does it have to be a child of the Canvas?
-> - The Canvas is a root to every UI element, hence each one is a child to it.
-> -This ensures we render the UI element correctly within the scene
+> - The Canvas is a root to every UI element, hence each one is a child to it
+> - This ensures we render the UI element correctly within the scene
 > - When adding a UI not only do we automatically get a canvas but also an **Event System object**.
-> -Event system facilitates the interaction between the input (mouse, keyboard, joystick) and the visual output
-> -It will map various inputs to appropraite function
-> -It is used to  process the input and map it to its corresponding  UI or Game object and invoke its appropriate function
-> -Note that we do not have to alter it since it is automatic!
+> - Event system facilitates the interaction between the input *(mouse, keyboard, joystick)* and the visual output
+> - It will map various inputs to appropraite function
+> - It is used to process the input and map it to its corresponding UI or Game object and invoke its appropriate function
+> - Note that we do not have to alter it since it is automatic!
+
+## Resizing the panel
 
 
-Now if the panel is too big on your screen, there is an option to zoom out and see it from the front perspective:
+Now if the panel is too big on your screen, there is an option to zoom out and see it from the *front perspective*:
 - We can go to a 2D view (if you are in a 3D game)
-select the canvas and put your mouse cursor on the scene,
-now hit the key F for frame and it will zoom out on the whole canvas
-if you enter the game mode, you will see that the panel is covering the whole screen.
-you can click on the panel resize it manually, but it might not be precise and may apply differently on different screens.
-an easier and more organised way is to edit it in the Inspector.
+- Select the canvas and put your mouse cursor on the scene
+- Now hit the key **F** for frame and it will zoom out on the whole canvas
+- If you enter the *Game mode*, you will see that the panel is covering the whole screen
+- You can click and drag the panel to resize it manually by placing the mouse cursor to the edge of the panel until an *up and down arrow* appears
+- There is an easier way to do this, and the results end up more organised and the size of the panel will be fixated no matter what the size of the screen is
 
-## Navigating the inspector
+## Navigating the Inspector
 
+**We can resize the panel automatically by going to the inspector!**
 
+As an example, let's make a **Score count** for left and right goal in a game.
+As for now, if we enter **Game Mode**, the panel would cover the whole screen. Ofcourse, we would only like our UI to be on the *top centre screen* .
 
-For this tutorial, i will make a score for left and right goal, that is why i will choose ...
-As an example, let's make a score count for left and right goal in a game.
-We don't want our UI to take over the whole screen. UI should not a be in focus of the game, but rather a tool for the player to follow some important data in the game.
+> UI should not a be in focus of the game, but rather a **tool** for the player to follow some important data in the game!
 
-That is why, I want to place my score count on the top of the screen.
-We can use a tool in the inspector left clicking on the frame in the square. Those are automatic presets that allow us to correctly place our user interface.
-By clicking on the box, we can change our pivot, position and strech settings.
+We can use a tool in the inspector by left clicking on the *frame* in the square. 
 
-If we would go to the inspector and access the presets
-you just have to click this box in the inspector which will allow you to see all the given options depending on your liking and a purpose
-pivot position and strech settings
-for even more options, you can hold Shift and Alt to access even more options.
- I will chosen top strech.
+![Capture3](https://github.com/user-attachments/assets/849b1d3d-bbd1-4f10-8669-8850764ea1b7)
+
+Then a drop menu will appear with the following:
+
+![Screenshot (369)](https://github.com/user-attachments/assets/c763d723-127e-4f85-8654-f1cc92459ec8)
+
+Those are automatic presets that allow us to correctly resize our panel.
+By clicking on the box, we can change our **pivot, position and strech settings**
+For even more options, you can hold Shift and Alt to access even more options
+Now if we would go to the inspector and access the presets
+
+I will chosw *Top stretch*
 For height we will change it to 220.
 
 If we go down to image, we can change the fill and the colour of the panel, or we can deactivate it.
