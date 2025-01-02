@@ -97,8 +97,10 @@ To deactivate it, untick the box next to the **Image**
 If you have done these steps right, you can proceed to add the text to the UI.
 
 ## Adding the text
-**Now we will add some text to the panel.**
-We are going to go to the Hierarchy and right click on the panel and select UI and text.
+**Now we will add some text to the panel**
+
+We are going to go to the Hierarchy and right click on the panel and select UI
+
 Now we have a little text box.
 we will not worry about the position of the box.
  we will not bother editing the text too much, for now we will just set a text to bold and type 0 to text
