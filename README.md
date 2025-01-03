@@ -99,25 +99,37 @@ If you have done these steps right, you can proceed to add the text to the UI.
 ## Adding the text
 **Now we will add some text to the panel**
 
-We are going to go to the Hierarchy and right click on the panel and select UI
+We go to the Hierarchy and right click on the panel and select UI. Then another drop menu will show up and we will left click on the TextMeshPro
 
-Now we have a little text box.
-we will not worry about the position of the box.
- we will not bother editing the text too much, for now we will just set a text to bold and type 0 to text
- We choose font size to 100 and bold text
- we align it  to centre horizontally and vertically.
- and we change the colour of the text to white.
+ ![Screenshot (374)](https://github.com/user-attachments/assets/9a51500e-fa93-496b-852c-ef73b9c66dca)
+
+Now we have a little **Text box**
+
+To edit the text, you will got to Inspector.
+We can see that there are various options to editing the text in Unity. You can edit the Text input, font, size, style, colour, layout and so on. I will only change a few bits to the text for the sake of practice.
+
+Firstly we will change the text Input and type in *0*
+
+![Capture6](https://github.com/user-attachments/assets/591f15f6-ccf2-4716-8f4a-cf87579c54c2)
+
+Then if you scroll down in the TextMeshPro area, you will go to the text size and change it to *100*
+
+![Capture7](https://github.com/user-attachments/assets/66cf37d2-a968-44ab-8518-71191d23b3f3)
+
+Later we will change it to bold and center it like so:
+
+
+![Capture9](https://github.com/user-attachments/assets/db45ecc6-1277-4fda-8918-5695bf11cd93)
+
+We can also change the colour by pressing the fill options
+
+![Screenshot (377)](https://github.com/user-attachments/assets/9aa13ff3-ac78-49b4-b996-946afa36a6df)
+
+I will keep it as it is, but feel free to change the colour if you would like.
+We managed to edit the text. Since we want to have two scores, we will have to arrange the layout.
+To do this follow the next step!
+
+## Making a score
+
+To have two texts on the same panel, we will have to find what is called **Horizontal layer group**
  Now we will select the panel and add a component that will take care of the layer force. It's the component is under layout and is called horizontal layout group. For this game, we will set child alignment to middle centre, then we will uncheck child force expand for the width, and we will let this panel control the height of the  elements. And there you go, if you resize the panel, the text will adapt automatically. We are now all set for the coding part.
-
- 
-
-this we will add text
-change the colours
-rearrange the position
-
-
-
- 
-
-
-
